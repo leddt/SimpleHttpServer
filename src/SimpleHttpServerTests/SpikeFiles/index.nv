@@ -1,0 +1,21 @@
+<h2>Content page</h2>
+
+<h3>Model</h3>
+It is now $model.Time
+
+<h3>POST</h3>
+<form method="post">
+  Name: <input name="name" />
+  <button>Submit</button>
+</form>
+
+<h3>Session</h3>
+<form action="ss" method="post">
+  Current session id: $model.SessionId<br />
+  Current data: $html.Encode($model.data)<br />
+  Change it: <input name="data" />
+  <button>Submit</button>
+</form>
+
+<h3>Partials</h3>
+$vel.Render("partial.nv", $model)

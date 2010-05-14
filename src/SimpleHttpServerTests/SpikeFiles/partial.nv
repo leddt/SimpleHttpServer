@@ -1,0 +1,2 @@
+Hello from partial! $html.Encode("<b>OMG</b>")<br />
+It is still $model.Time.ToString("hh:mm:ss")
