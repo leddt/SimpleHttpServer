@@ -1,5 +1,5 @@
-bin
-obj
+[bB]in
+[oO]bj
 *.suo
-*.resharper.user
-_ReSharper*
+*.[rR]e[sS]harper.user
+_[rR]e[sS]harper*
