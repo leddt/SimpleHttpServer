@@ -20,7 +20,7 @@ namespace DDT.SimpleHttpServer.Storage
             if (!FileExists(fileName))
                 throw new FileNotFoundException(fileName);
 
-            return File.OpenRead(Path.Combine(baseDir.FullName, fileName));
+            return File.Open(Path.Combine(baseDir.FullName, fileName), FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
         }
 
         public bool FileExists(string fileName)
