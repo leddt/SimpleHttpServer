@@ -54,7 +54,7 @@ namespace DDT.SimpleHttpServer
                        };
 
             DefaultPath = "index.htm";
-            MimeTypeProvider = new RegistryMimeTypeProvider();
+            MimeTypeProvider = new DefaultMimeTypeProvider();
             LoggerFactory = new Log4netLoggerFactory();
             ActionFactory = new ActionFactory();
         }

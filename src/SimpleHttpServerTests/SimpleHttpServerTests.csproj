@@ -92,7 +92,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="SpikeFiles\index.nv" />
+    <EmbeddedResource Include="SpikeFiles\index.nv">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
